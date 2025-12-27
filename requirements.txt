@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-google-auth
-google-auth-httplib2
-google-api-python-client
-pydantic
-httplib2
-requests
