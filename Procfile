@@ -1,1 +1,2 @@
-web: uvicorn mmgpt_drive_bridge:app --host 0.0.0.0 --port 10000
+web: python -m uvicorn mmgpt_drive_bridge:app --host 0.0.0.0 --port 10000
+
