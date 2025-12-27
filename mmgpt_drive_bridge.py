@@ -42,3 +42,8 @@ def drive_action(payload: DriveCommand):
 @app.get("/", tags=["System"])
 def root():
     return {"status": "MMGPT Drive Bridge running"}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("mmgpt_drive_bridge:app", host="0.0.0.0", port=5000, reload=True)
+
