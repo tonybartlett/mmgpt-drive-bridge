@@ -6,3 +6,5 @@ google-api-python-client
 pydantic
 httplib2
 requests
+google-auth-oauthlib
+python-dotenv
